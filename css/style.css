@@ -8,6 +8,12 @@
     display: flex;
 }
 
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 i{
     font-size: 2rem;
     padding: 0.4rem;
@@ -24,6 +30,10 @@ li{
 
 color-green{
     color: #4BC800;
+}
+
+body{
+    background-color: black;
 }
 
 header{
@@ -49,6 +59,21 @@ header>button{
     height: 100%;
     background-color: #4A4A4A;
     padding: 1rem;
+}
+
+main .container{
+    width: 80%;
+    margin: 3rem auto;
+    border: 1px solid white;
+}
+
+main .participant{
+    width: calc(100% / 7 - 0.4rem);
+    background-color: red;
+    border: 1px solid magenta;
+    height: 70px;
+    margin: 0.2rem;
+    float: left;
 }
 
 
