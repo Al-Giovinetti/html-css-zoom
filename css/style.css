@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    position: absolute;
+    bottom: 0;
+    background-color: #222222;
+    width: 100vw;
+    color: white;
+}
+
+header .icons{
+    background-color:red;
+    text-align: center;}
+
+header .icons>i{
+    background-color: aqua;
+    font-size: 2.5rem;
+    padding: 0.4rem;
+}
+
+header .icons>h3{
+    background-color: blue;
+}
+
+.arrow{
+    width:20px;
+    text-align: center;
+    background-color: orange;
+    font-size: 2rem;
+}
+
+
+
