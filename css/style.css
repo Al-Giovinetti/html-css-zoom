@@ -17,12 +17,18 @@ ul{
     list-style-type: none;
 }
 
+li{
+    text-align: center;
+    padding: 0 0.5rem;
+}
+
 color-green{
     color: #4BC800;
 }
 
 header{
     position: absolute;
+    justify-content: space-between;
     bottom: 0;
     background-color: #222222;
     width: 100vw;
@@ -32,10 +38,17 @@ header{
 header .icons{
     text-align: center;}
 
-.arrow{
+ header .arrow{
     width:30px;
     text-align: center;
     font-size: 2rem;
+}
+
+header>button{
+    color: red;
+    height: 100%;
+    background-color: #4A4A4A;
+    padding: 1rem;
 }
 
 
