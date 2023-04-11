@@ -8,6 +8,19 @@
     display: flex;
 }
 
+i{
+    font-size: 2rem;
+    padding: 0.4rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+color-green{
+    color: #4BC800;
+}
+
 header{
     position: absolute;
     bottom: 0;
@@ -17,25 +30,15 @@ header{
 }
 
 header .icons{
-    background-color:red;
     text-align: center;}
 
-header .icons>i{
-    background-color: aqua;
-    font-size: 2.5rem;
-    padding: 0.4rem;
-}
-
-header .icons>h3{
-    background-color: blue;
-}
-
 .arrow{
-    width:20px;
+    width:30px;
     text-align: center;
-    background-color: orange;
     font-size: 2rem;
 }
+
+
 
 
 
