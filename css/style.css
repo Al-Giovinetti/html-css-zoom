@@ -51,9 +51,9 @@ header{
     font-size: 0.6rem;
 }
 
-header .icons{
+header .icons-on{
     text-align: center;
-    padding: 0.4rem;
+    padding: 0.5rem;
 }
 
 .arrow{
@@ -125,6 +125,21 @@ main .audio-name>span{
     padding-right: 0.5rem;
     font-size: 0.5rem;
 }
+
+.icons-off{
+    display: none;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.icons-on:hover{
+    display: none;
+}
+
+.icons-on:hover+.icons-off{
+    display: inline-block;
+}
+
 
 
 
