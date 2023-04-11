@@ -15,8 +15,8 @@
 }
 
 i{
-    font-size: 1.3rem;
-    padding: 0.3rem;
+    font-size: 1.1rem;
+    padding: 0.2rem;
 }
 
 ul{
@@ -25,11 +25,15 @@ ul{
 
 li{
     text-align: center;
-    padding:0.5rem
+    padding:0.4rem
 }
 
-color-green{
+.color-green{
     color: #4BC800;
+}
+
+.background-grey{
+    background-color:  #4A4A4A;;
 }
 
 body{
@@ -44,12 +48,12 @@ header{
     background-color: #222222;
     width: 100vw;
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
 }
 
 header .icons{
     text-align: center;
-    padding: 0.5rem;
+    padding: 0.4rem;
 }
 
 .arrow{
@@ -64,6 +68,24 @@ header>button{
     color: red;
     height: 100%;
     background-color: #4A4A4A;
+    padding: 1rem;
+}
+
+main .view{
+    position: absolute;
+    top: 0.2rem; right: 0.2rem;
+    z-index: 1;
+    color: white;
+}
+
+.view *{
+    display: inline;
+    padding: 0.1rem;
+    font-size: 0.7rem;
+}
+
+.view>.view-sx{
+    margin-right: 0.2rem;
 }
 
 main .container{
@@ -77,6 +99,7 @@ main .participant{
     margin: 0.2rem;
     float: left;
     position: relative;
+    margin-bottom: 0.5rem;
 }
 
 main .participant>img{
