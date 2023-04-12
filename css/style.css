@@ -39,16 +39,18 @@ li{
 body{
     background-color: black;
     font-family: sans-serif;
+    position: relative;
 }
 
 header{
-    position: absolute;
+    position: fixed;
     justify-content: space-between;
-    bottom: 0;
+    bottom: 0; left: 0; right: 0;
     background-color: #222222;
     width: 100vw;
     color: white;
     font-size: 0.6rem;
+    z-index: 1;
 }
 
 header .icons-on{
@@ -92,10 +94,11 @@ main .view{
 main .container{
     width: 95%;
     margin: 2rem auto;
+    overflow-y: auto;
 }
 
 main .participant{
-    width: calc(100% / 7 - 0.4rem);
+    width: 200px;
     height: 100px;
     margin: 0.2rem;
     float: left;
@@ -126,7 +129,7 @@ main .audio-name>span{
     padding-right: 0.5rem;
     font-size: 0.5rem;
 }
-
+/* Muta e smuta */
 .icons-off{
     display: none;
     text-align: center;
