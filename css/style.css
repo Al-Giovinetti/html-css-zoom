@@ -75,7 +75,7 @@ header>button{
 }
 
 main .view{
-    position: absolute;
+    position: fixed;
     top: 0.2rem; right: 0.2rem;
     z-index: 1;
     color: white;
